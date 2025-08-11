@@ -233,43 +233,25 @@ body {
 
 /* End Box  */
 
-.work {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    background-color: #EEE;
-}
-
 .work .our-work {
-    overflow: hidden;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .work .our-work img {
-    float: left;
-    overflow: hidden;
-
-    margin-bottom: 10px;
-
-}
-
-.work .our-work>div img {
-    width: 92%;
-    margin: 10px;
+    width: 30%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 
-img {
-    width: 25%;
-    /* الحجم الأصلي للصورة */
-    transition: width 0.3s ease;
-    /* تأثير الانتقال */
+.work .our-work img:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
-img.enlarged {
-    width: 40%;
-    /* الحجم المكبر */
-}
 
 
 
@@ -424,4 +406,5 @@ transform: translate(-50%, -50%); */
     display: none;
     cursor: pointer;
     text-align: center;
+
 }
