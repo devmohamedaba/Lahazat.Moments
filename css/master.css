@@ -248,7 +248,7 @@ body {
 
 
 .work .our-work img:hover {
-    transform: scale(1.1);
+    transform: scale(1.8);
     z-index: 2;
 }
 
@@ -408,3 +408,4 @@ transform: translate(-50%, -50%); */
     text-align: center;
 
 }
+
